@@ -65,6 +65,11 @@ if itest.s "x" == "x${fdt_file}" ; then
 	fi
 fi
 
+fdt_file=imx8mm-nitrogen8mm_rev2-lt8912.dtb;
+
+echo "fdt = ${fdt_file}"
+
+
 if itest.s x${distro_bootpart} == x ; then
 	distro_bootpart=1
 fi
